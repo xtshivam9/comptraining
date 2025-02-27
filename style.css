@@ -132,10 +132,11 @@ gap: 1.2rem;
     flex-direction: column;
     margin: auto;
     background-color: #ffff;
-    padding: 60px 0px;
+    padding: 60px 20px;
     box-shadow: 0 3px 16px rgba(0, 0,0,0.12);
     border-radius: 10px;
     margin-bottom: -100px;
+    text-align: center;
 }
 .promo h1{
     margin-bottom: 15px;
@@ -217,6 +218,9 @@ a{
     }
     .build{
         width: 95%;
+        .btn{
+            margin: 0 auto;
+        }
     }
     .illus{
         margin-top: 30px;
@@ -280,7 +284,7 @@ a{
         padding-right: 0px;
     }
     .sec-1{
-        width: 90px;
+        width: 100%;
         margin-bottom: 40px;
     }
     .sec-2,
@@ -296,6 +300,7 @@ a{
         display: flex;
         justify-content: center;
         margin-left: 0px;
+        gap:10px;
         margin: 10px 0px 0px;
         margin-bottom: -20px;
     }
@@ -303,6 +308,35 @@ a{
         text-align: center;
 
     }
+    
 
 
+}
+.social{
+    gap: 10px;
+    
+}
+@media screen and (max-width: 500px ) {
+    nav {
+        padding: 10px;
+        img{
+            width: 100px;
+            height: auto;
+        }
+        .btn{
+            padding: 10px 20px;
+        }
+    }
+    .build{
+        h1{
+            font-size: 22px;
+        
+        p{
+            font-weight: 600;
+        }
+    }
+}
+    footer{
+        padding: 200px 30px ;
+    }
 }
